@@ -17,7 +17,7 @@ func scanHostPort(host string, port int) {
 	target := fmt.Sprintf("%s:%d", host, port)
 	conn, err := net.Dial("tcp", target)
 	if err != nil {
-		log.Printf("Failed to connect %s\n", err.Error())
+		log.Printf("MySQL is not running on the given host and port: %s\n", err.Error())
 		return
 	}
 

@@ -39,3 +39,6 @@ Status flags: 2
 Capability flag: 3758096383
 Character set: 255
 ```
+
+# References
+https://alexravikovich.medium.com/writing-mysql-proxy-in-go-for-learning-purposes-part-2-decoding-connection-phase-server-response-7091d87e877e
